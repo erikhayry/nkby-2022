@@ -1,18 +1,9 @@
-import Crawler, { CrawlerRequestResponse } from "crawler";
+import { JSDOM } from 'jsdom'
+import got from 'got'
 
-const CRAWLER_CONF = {
-    maxConnections : 10
-};
+export async function crawl (url: string, selector: string): Promise<Element[]> {
+  const response = await got(url)
+  const dom = new JSDOM(response.body)
 
-
-export async function crawl(url: string){
-    const handleCallbck = (err: Error, res: CrawlerRequestResponse, done: () => void) => void {
-
-    }
-
-
-    const crawler = new Crawler({
-        ...CRAWLER_CONF,
-        callback: handleCallbck
-    });
+  return Array.from(dom.window.document.querySelectorAll(selector))
 }
