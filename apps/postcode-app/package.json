@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "Get street names from post codes",
   "main": "index.ts",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node-transpile-only index.ts"
+    "start": "ts-node-transpile-only index.ts",
+    "start:geo-coder": "ts-node-transpile-only utils/geocoder.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google/maps": "^1.1.3",
+    "dotenv": "^16.0.0",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/google__maps": "^0.5.16"
   }
 }

@@ -1,55 +1,82 @@
+import { LatLngLiteral } from '@google/maps'
+import { ILatLng } from 'nkby'
+import { Locations, saveLocales } from '../../db'
 import { crawl } from '../../utils/crawler'
+import { geoCodeLocation } from './utils/geocoder'
+import { removeEmptySpace } from './utils/regex'
 
-const POST_URL = process.env.POST_URL || 'https://www.verkkoposti.com/e3/svenska/postnummercatalog'
-const LOCALES_FILE_NAME = process.env.LOCALES_FILE_NAME || 'locales.json'
-const ZIP_CODE_URL = process.env.ZIP_CODE_URL || 'https://www.verkkoposti.com'
-const COMMUNE = process.env.COMMUNE || 'Nykarleby'
+const POSTI_URL = 'https://www.verkkoposti.com'
+const ZIPCODE_CATALOGUE_URL = `${POSTI_URL}/e3/svenska/postnummercatalog`
+const COMMUNE = 'Nykarleby'
 
-type Zipcode = {
+type IZipcode = {
     href: string | null,
     zipcode: string
 }
 
-function getZipCode (zipCodeUrl: string): string | undefined {
-  const regex = new RegExp('[?&]zipcode(=([^&#]*)|&|#|$)')
-  const results = regex.exec(zipCodeUrl)
+function elementToStreetName ({ textContent }: Element): string {
+  return removeEmptySpace(textContent)
+}
 
-  if (!results || !results[2]) {
-    return undefined
+async function fetchStreetNamesForZipcode (path: string): Promise<string[]> {
+  const elements = await crawl(`${POSTI_URL}${path}`, '.data table table td div:not(.ipono_tooltip)')
+
+  return elements.map(elementToStreetName)
+}
+
+type IZipcodeWithStreetNames = Record<string, string[]>;
+
+async function zipCodeToStreetNames (streetNames: Promise<IZipcodeWithStreetNames>, { href, zipcode }: IZipcode): Promise<IZipcodeWithStreetNames> {
+  const partial = await streetNames
+
+  partial[zipcode] = await fetchStreetNamesForZipcode(href)
+
+  return partial
+}
+
+async function fetchStreetNames (zipCodes: IZipcode[]): Promise<IZipcodeWithStreetNames> {
+  return await zipCodes.reduce(zipCodeToStreetNames, {} as Promise<IZipcodeWithStreetNames>)
+}
+
+function elementToZipcode (zipcodes: IZipcode[], element: Element): IZipcode[] {
+  const href = element.getAttribute('href')
+
+  if (href && element.textContent) {
+    zipcodes.push({
+      href,
+      zipcode: removeEmptySpace(element.textContent)
+    })
   }
 
-  return decodeURIComponent(results[2].replace(/\+/g, ' '))
+  return zipcodes
 }
 
-function sortUrlsByZipcode (zipCodeUrls: string[]): Record<string, string[]> {
-  return zipCodeUrls.reduce((acc, zipCodeUrl) => {
-    const zipCode = getZipCode(zipCodeUrl)
+async function fetchZipcodeLinks (): Promise<IZipcode[]> {
+  const elements = await crawl(`${ZIPCODE_CATALOGUE_URL}?postcodeorcommune=${COMMUNE}`, '.data td a')
 
-    if (zipCode) {
-      if (acc[zipCode]) {
-        acc[zipCode].push(zipCodeUrl)
-      } else {
-        acc[zipCode] = [zipCodeUrl]
-      }
-    }
-
-    return acc
-  }, {} as Record<string, string[]>)
+  return elements.reduce(elementToZipcode, [])
 }
 
-async function getZipcodeLinks (commune: string): Promise<Zipcode[]> {
-  const result = await crawl(`${POST_URL}?streetname=&postcodeorcommune=${commune}`, '.data td a')
+async function getLocations (streetNames: Record<string, string[]>): Promise<ILatLng[]> {
+  return await Promise.all(Object.entries(streetNames).map(async ([zipCode, streetNames]) => {
+    const latLng = await geoCodeLocation(zipCode, streetNames[0])
 
-  return result.map(element => ({ href: element.getAttribute('href'), zipcode: element.innerHTML }))
+    return latLng
+  }))
 }
 
 async function run () {
-  const zipCodeUrls = await getZipcodeLinks(COMMUNE)
-
+  const zipCodeUrls = await fetchZipcodeLinks()
   console.log(zipCodeUrls)
 
-  // getStreetNames(zipCodeUrls)
-  // console.log(zipCodeUrls);
+  const streetNames = await fetchStreetNames(zipCodeUrls)
+  console.log(streetNames)
+
+  const locations = await getLocations(streetNames)
+
+  console.log(locations)
+
+  // saveLocales(locations)
 }
 
 run()
