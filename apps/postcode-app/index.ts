@@ -57,12 +57,35 @@ async function fetchZipcodeLinks (): Promise<IZipcode[]> {
   return elements.reduce(elementToZipcode, [])
 }
 
-async function getLocations (streetNames: Record<string, string[]>): Promise<ILatLng[]> {
-  return await Promise.all(Object.entries(streetNames).map(async ([zipCode, streetNames]) => {
-    const latLng = await geoCodeLocation(zipCode, streetNames[0])
+type ILocation = {
+  zipCode: string,
+  latLng: ILatLng,
+  name: string;
+}
 
-    return latLng
-  }))
+async function getLocation (zipCode: string, name: string): Promise<ILocation> {
+  const latLng = await geoCodeLocation(zipCode, name)
+
+  return {
+    zipCode,
+    latLng,
+    name
+  }
+}
+
+async function streetNamesPerZipCodesToLocation (locations: Promise<ILocation[]>, [zipCode, streetNames]: [string, string[]]): Promise<ILocation[]> {
+  const partial = await locations
+  const locationWithLatLng = await Promise.all(streetNames.map((name) => getLocation(zipCode, name)))
+
+  partial.push(...locationWithLatLng)
+
+  return partial
+}
+
+async function getLocations (streetNamesPerZipCodes: Record<string, string[]>): Promise<ILocation[]> {
+  const arr = Object.entries(streetNamesPerZipCodes)
+
+  return arr.reduce(streetNamesPerZipCodesToLocation, [] as unknown as Promise<ILocation[]>)
 }
 
 async function run () {
@@ -76,7 +99,7 @@ async function run () {
 
   console.log(locations)
 
-  // saveLocales(locations)
+  saveLocales(locations)
 }
 
 run()
