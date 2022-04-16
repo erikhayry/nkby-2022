@@ -22,8 +22,6 @@ type DBLocation = {
    latLang: ILatLng;
 }
 
-export type Locations = Record<string, string[]>;
-
 function buildData (data: Data): DB_ENTRY {
   return {
     date: new Date(),
@@ -60,7 +58,7 @@ function save ({ key, data }: ISaveData): Data {
   return read(key)
 }
 
-export function readLocales (): Locations {
+export function readLocales (): DBLocation[] {
   return read(KEY.LOCALES)
 }
 

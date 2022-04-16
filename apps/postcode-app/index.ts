@@ -1,6 +1,5 @@
-import { LatLngLiteral } from '@google/maps'
 import { ILatLng } from 'nkby'
-import { Locations, saveLocales } from '../../db'
+import { saveLocales } from '../../db'
 import { crawl } from '../../utils/crawler'
 import { geoCodeLocation } from './utils/geocoder'
 import { removeEmptySpace } from './utils/regex'
@@ -90,14 +89,8 @@ async function getLocations (streetNamesPerZipCodes: Record<string, string[]>): 
 
 async function run () {
   const zipCodeUrls = await fetchZipcodeLinks()
-  console.log(zipCodeUrls)
-
   const streetNames = await fetchStreetNames(zipCodeUrls)
-  console.log(streetNames)
-
   const locations = await getLocations(streetNames)
-
-  console.log(locations)
 
   saveLocales(locations)
 }
