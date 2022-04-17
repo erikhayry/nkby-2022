@@ -17,25 +17,25 @@
   },
   "homepage": "https://github.com/erikhayry/nkby-2022#readme",
   "dependencies": {
-    "crawler": "^1.3.0",
-    "dotenv": "^16.0.0",
-    "jsdom": "^19.0.0"
+    "crawler": "*",
+    "dotenv": "*",
+    "jsdom": "*"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.2",
-    "@tsconfig/recommended": "^1.0.1",
-    "@types/crawler": "^1.2.2",
-    "@types/jest": "^27.4.1",
-    "@types/jsdom": "^16.2.14",
-    "@typescript-eslint/eslint-plugin": "^5.18.0",
-    "@typescript-eslint/parser": "^5.18.0",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
-    "prettier": "2.6.2",
-    "typescript": "^4.6.3"
+    "@tsconfig/node16": "*",
+    "@tsconfig/recommended": "*",
+    "@types/crawler": "*",
+    "@types/jest": "*",
+    "@types/jsdom": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "prettier": "*",
+    "typescript": "*"
   }
 }

@@ -19,7 +19,7 @@ type DBLocation = {
    id: string;
    zipCode: string;
    name: string;
-   latLng: ILatLng;
+   latLng: ILatLng | undefined;
 }
 
 type DBLocations = Record<string, DBLocation>;

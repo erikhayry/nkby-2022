@@ -11,7 +11,7 @@ declare module 'nkby' {
   interface ILocation {
     name: string;
     type: ILocationType;
-    latLng: ILatLng;
+    latLng: ILatLng | undefined;
   }
 
   type ILocations = Record<string, Location[]>;
