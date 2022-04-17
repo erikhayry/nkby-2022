@@ -19,8 +19,10 @@ type DBLocation = {
    id: string;
    zipCode: string;
    name: string;
-   latLang: ILatLng;
+   latLng: ILatLng;
 }
+
+type DBLocations = Record<string, DBLocation>;
 
 function buildData (data: Data): DB_ENTRY {
   return {
@@ -42,12 +44,7 @@ function read (key: KEY): Data {
 
 type ISaveData = {
   key: KEY.LOCALES,
-  data: {
-    id: string,
-    name: string,
-    latLng: ILatLng,
-    zipCode: string
-  }[]
+  data: DBLocations
 }
 
 function save ({ key, data }: ISaveData): Data {
@@ -59,16 +56,24 @@ function save ({ key, data }: ISaveData): Data {
 }
 
 export function readLocales (): DBLocation[] {
-  return read(KEY.LOCALES)
+  const locales =  read(KEY.LOCALES) as DBLocations;
+
+  return Object.values(locales).map(locale => locale)
 }
 
 export function saveLocales (locales: {name: string, latLng: ILatLng, zipCode: string}[]): DBLocation[] {
-  const data = locales.map(({ name, latLng, zipCode }) => ({
-    id: `${zipCode}-${name}`,
-    name,
-    latLng,
-    zipCode
-  }))
+  const data = locales.reduce((acc, { name, latLng, zipCode }) => {
+    const id = `${zipCode}-${name}`;
+    acc[id] = {
+      id ,
+      name,
+      latLng,
+      zipCode
+    }
+
+    return acc;
+  }, {} as DBLocations)
+
 
   return save({ key: KEY.LOCALES, data })
 }
