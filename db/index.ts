@@ -1,53 +1,47 @@
 import * as fs from 'fs'
-import { ILatLng } from 'nkby'
 import * as path from 'path'
+import { LatLng, Location } from '../types/db'
+import { LocationType } from '../types/enums'
 
-const ROOT = 'data'
+const DATA_ROOT_FOLDER = 'data'
 
-enum KEY {
+enum DBKEY {
     LOCALES = 'locales',
 }
 
-type Data = any
+type DBData = any
 
-type DB_ENTRY = {
+type DBENTRY = {
     date: Date,
     data: any
 }
 
-type DBLocation = {
-   id: string;
-   zipCode: string;
-   name: string;
-   latLng: ILatLng | undefined;
+type DBLocations = Record<string, Location>;
+
+type DBSaveData = {
+  key: DBKEY.LOCALES,
+  data: DBLocations
 }
 
-type DBLocations = Record<string, DBLocation>;
-
-function buildData (data: Data): DB_ENTRY {
+function buildData (data: DBData): DBENTRY {
   return {
     date: new Date(),
     data
   }
 }
 
-function getPath (key: KEY) {
-  return path.resolve(__dirname, `${ROOT}/${key}.json`)
+function getPath (key: DBKEY) {
+  return path.resolve(__dirname, `${DATA_ROOT_FOLDER}/${key}.json`)
 }
 
-function read (key: KEY): Data {
+function read (key: DBKEY): DBData {
   const json = fs.readFileSync(getPath(key), 'utf8')
-  const dbEntry = JSON.parse(json) as DB_ENTRY
+  const dbEntry = JSON.parse(json) as DBENTRY
 
   return dbEntry.data
 }
 
-type ISaveData = {
-  key: KEY.LOCALES,
-  data: DBLocations
-}
-
-function save ({ key, data }: ISaveData): Data {
+function save ({ key, data }: DBSaveData): DBData {
   const json = JSON.stringify(buildData(data), null, '\t')
 
   fs.writeFileSync(getPath(key), json)
@@ -55,25 +49,25 @@ function save ({ key, data }: ISaveData): Data {
   return read(key)
 }
 
-export function readLocales (): DBLocation[] {
-  const locales =  read(KEY.LOCALES) as DBLocations;
+export function readLocales (): Location[] {
+  const locales = read(DBKEY.LOCALES) as DBLocations
 
   return Object.values(locales).map(locale => locale)
 }
 
-export function saveLocales (locales: {name: string, latLng: ILatLng, zipCode: string}[]): DBLocation[] {
-  const data = locales.reduce((acc, { name, latLng, zipCode }) => {
-    const id = `${zipCode}-${name}`;
+export function saveStreets (streets: {name: string, latLng: LatLng, zipCode: string}[]): Location[] {
+  const locations = streets.reduce((acc, { name, latLng, zipCode }) => {
+    const id = `${zipCode}-${name}`
     acc[id] = {
-      id ,
+      id,
       name,
+      type: LocationType.STREET,
       latLng,
       zipCode
     }
 
-    return acc;
+    return acc
   }, {} as DBLocations)
 
-
-  return save({ key: KEY.LOCALES, data })
+  return save({ key: DBKEY.LOCALES, data: locations })
 }

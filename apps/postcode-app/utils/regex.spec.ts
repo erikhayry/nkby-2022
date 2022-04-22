@@ -1,6 +1,10 @@
 
-import { removeEmptySpace } from "./regex"
+import { removeEmptySpace } from './regex'
 
-test('should show welcome message', () => {
-  expect(removeEmptySpace('   street  ')).toEqual('street')
+describe('removeEmptySpace', () => {
+  test('should remove empty spaces', () => {
+    expect(removeEmptySpace('   street  ')).toEqual('street')
+    expect(removeEmptySpace('\r\nstreet  ')).toEqual('street')
+    expect(removeEmptySpace('\tstreet\t')).toEqual('street')
+  })
 })

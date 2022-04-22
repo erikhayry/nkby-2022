@@ -1,18 +1,14 @@
-declare module 'nkby' {
-  interface ILocationType {
-    STREET: 'street'
-  }
+import { LocationType } from './enums'
 
-  interface ILatLng {
+  interface LatLng {
       lat: number;
       lng: number;
   }
 
-  interface ILocation {
+  interface Location {
+    id: string;
     name: string;
-    type: ILocationType;
-    latLng: ILatLng | undefined;
+    zipCode: string;
+    type: LocationType;
+    latLng: LatLng | undefined;
   }
-
-  type ILocations = Record<string, Location[]>;
-}

@@ -6,6 +6,8 @@ const CRAWLER_CONF = {
   jQuery: JSDOM
 }
 
+
+
 export async function crawl (url: string | string[], selector: string): Promise<Element[]> {
   const elements: Element[] = []
   return new Promise((resolve, reject) => {
@@ -16,8 +18,8 @@ export async function crawl (url: string | string[], selector: string): Promise<
           console.log(error)
           return []
         } else {
-          const dom = new JSDOM(response.body)
-          const newElements = Array.from(dom.window.document.querySelectorAll(selector))
+          const document = new JSDOM(response.body).window.document
+          const newElements = Array.from(document.querySelectorAll(selector))
           elements.push(...newElements)
         }
         done()

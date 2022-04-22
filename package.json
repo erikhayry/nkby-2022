@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --no-cache",
+    "start:post-code": "ts-node-transpile-only ./apps/postcode-app/index.ts",
+    "start:geo-coder": "ts-node-transpile-only ./apps/postcode-app/utils/geocoder.ts"
   },
   "repository": {
     "type": "git",
@@ -17,25 +19,34 @@
   },
   "homepage": "https://github.com/erikhayry/nkby-2022#readme",
   "dependencies": {
+    "@google/maps": "*",
     "crawler": "*",
     "dotenv": "*",
-    "jsdom": "*"
+    "jsdom": "*",
+    "listr": "*",
+    "ts-node": "*",
+    "typescript": "*"
   },
   "devDependencies": {
     "@tsconfig/node16": "*",
     "@tsconfig/recommended": "*",
     "@types/crawler": "*",
+    "@types/google__maps": "*",
     "@types/jest": "*",
     "@types/jsdom": "*",
+    "@types/listr": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "eslint": "*",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-standard": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
     "eslint-plugin-node": "*",
     "eslint-plugin-promise": "*",
+    "jest": "*",
     "prettier": "*",
+    "ts-jest": "*",
     "typescript": "*"
   }
 }

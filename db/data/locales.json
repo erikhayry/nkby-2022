@@ -1,3065 +1,3405 @@
 {
-	"date": "2022-04-16T17:06:14.061Z",
-	"data": [
-		{
+	"date": "2022-04-20T06:51:19.927Z",
+	"data": {
+		"62350-Karkausvägen": {
 			"id": "62350-Karkausvägen",
 			"name": "Karkausvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3465643,
 				"lng": 22.7430442
 			},
 			"zipCode": "62350"
 		},
-		{
+		"66840-Aspnästået": {
 			"id": "66840-Aspnästået",
 			"name": "Aspnästået",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3413523,
 				"lng": 22.5949573
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Brännlandsvägen": {
 			"id": "66840-Brännlandsvägen",
 			"name": "Brännlandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3686734,
 				"lng": 22.528089
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Centrumvägen": {
 			"id": "66840-Centrumvägen",
 			"name": "Centrumvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.344849,
 				"lng": 22.558324
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Jeppovägen": {
 			"id": "66840-Jeppovägen",
 			"name": "Jeppovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3296599,
 				"lng": 22.5152358
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Södersvedsvägen": {
 			"id": "66840-Södersvedsvägen",
 			"name": "Södersvedsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3336811,
 				"lng": 22.5545366
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Jussilavägen": {
 			"id": "66840-Jussilavägen",
 			"name": "Jussilavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3656185,
 				"lng": 22.5165609
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Aspnäsvägen": {
 			"id": "66840-Aspnäsvägen",
 			"name": "Aspnäsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3405852,
 				"lng": 22.5765052
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Kullasvägen": {
 			"id": "66840-Kullasvägen",
 			"name": "Kullasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3380675,
 				"lng": 22.5944767
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Köurosvägen": {
 			"id": "66840-Köurosvägen",
 			"name": "Köurosvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3414515,
 				"lng": 22.5132634
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Milbackavägen": {
 			"id": "66840-Milbackavägen",
 			"name": "Milbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3579798,
 				"lng": 22.5447526
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Målarsvägen": {
 			"id": "66840-Målarsvägen",
 			"name": "Målarsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3296129,
 				"lng": 22.5235599
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Nedranvägen": {
 			"id": "66840-Nedranvägen",
 			"name": "Nedranvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3440837,
 				"lng": 22.5644145
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66840-Pensalavägen": {
 			"id": "66840-Pensalavägen",
 			"name": "Pensalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3620592,
 				"lng": 22.5927194
 			},
 			"zipCode": "66840"
 		},
-		{
+		"66850-Aspgränd": {
 			"id": "66850-Aspgränd",
 			"name": "Aspgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4026669,
 				"lng": 22.6730569
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Bangårdsvägen": {
 			"id": "66850-Bangårdsvägen",
 			"name": "Bangårdsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4050339,
 				"lng": 22.6649841
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Bärsvägen": {
 			"id": "66850-Bärsvägen",
 			"name": "Bärsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4376065,
 				"lng": 22.5981949
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Centralvägen": {
 			"id": "66850-Centralvägen",
 			"name": "Centralvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4088526,
 				"lng": 22.6523856
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Ekbackavägen": {
 			"id": "66850-Ekbackavägen",
 			"name": "Ekbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.396542,
 				"lng": 22.692735
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Ekolavägen": {
 			"id": "66850-Ekolavägen",
 			"name": "Ekolavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.364178,
 				"lng": 22.6783941
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Furubacksvägen": {
 			"id": "66850-Furubacksvägen",
 			"name": "Furubacksvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4123144,
 				"lng": 22.648818
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Gunnarsvägen": {
 			"id": "66850-Gunnarsvägen",
 			"name": "Gunnarsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3736218,
 				"lng": 22.7163112
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Holmbovägen": {
 			"id": "66850-Holmbovägen",
 			"name": "Holmbovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3961503,
 				"lng": 22.6581607
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Holmändan": {
 			"id": "66850-Holmändan",
 			"name": "Holmändan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.406675,
 				"lng": 22.6431749
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Häggränd": {
 			"id": "66850-Häggränd",
 			"name": "Häggränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4018513,
 				"lng": 22.6443393
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Jungarvägen": {
 			"id": "66850-Jungarvägen",
 			"name": "Jungarvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3815637,
 				"lng": 22.6945067
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Kampasvägen": {
 			"id": "66850-Kampasvägen",
 			"name": "Kampasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3700731,
 				"lng": 22.673648
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Karkausvägen": {
 			"id": "66850-Karkausvägen",
 			"name": "Karkausvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3594749,
 				"lng": 22.7032817
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Keppo tvärvägen": {
 			"id": "66850-Keppo tvärvägen",
 			"name": "Keppo tvärvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3741047,
 				"lng": 22.6869969
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Keppogränd": {
 			"id": "66850-Keppogränd",
 			"name": "Keppogränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4079847,
 				"lng": 22.6471336
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Keppovägen": {
 			"id": "66850-Keppovägen",
 			"name": "Keppovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3884681,
 				"lng": 22.6592497
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Kiitolavägen": {
 			"id": "66850-Kiitolavägen",
 			"name": "Kiitolavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.396841,
 				"lng": 22.6427766
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Kraftgränd": {
 			"id": "66850-Kraftgränd",
 			"name": "Kraftgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4026669,
 				"lng": 22.6730569
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Kyrkvägen": {
 			"id": "66850-Kyrkvägen",
 			"name": "Kyrkvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4195309,
 				"lng": 22.6184593
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Lassila broväg": {
 			"id": "66850-Lassila broväg",
 			"name": "Lassila broväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4291022,
 				"lng": 22.6059059
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Lussivägen": {
 			"id": "66850-Lussivägen",
 			"name": "Lussivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4436953,
 				"lng": 22.5943222
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Lövbackvägen": {
 			"id": "66850-Lövbackvägen",
 			"name": "Lövbackvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4081331,
 				"lng": 22.6602438
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Måtarsgränd": {
 			"id": "66850-Måtarsgränd",
 			"name": "Måtarsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4026669,
 				"lng": 22.6730569
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Nylandsvägen": {
 			"id": "66850-Nylandsvägen",
 			"name": "Nylandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4149442,
 				"lng": 22.7213346
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Pensalavägen": {
 			"id": "66850-Pensalavägen",
 			"name": "Pensalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3684835,
 				"lng": 22.6061283
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Prästasvägen": {
 			"id": "66850-Prästasvägen",
 			"name": "Prästasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3645216,
 				"lng": 22.7005669
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Ruckusvägen": {
 			"id": "66850-Ruckusvägen",
 			"name": "Ruckusvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4068816,
 				"lng": 22.6556496
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Skivgränd": {
 			"id": "66850-Skivgränd",
 			"name": "Skivgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4026669,
 				"lng": 22.6730569
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Skogvägen": {
 			"id": "66850-Skogvägen",
 			"name": "Skogvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.418244,
 				"lng": 22.6378808
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Stationsvägen": {
 			"id": "66850-Stationsvägen",
 			"name": "Stationsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4080774,
 				"lng": 22.6523932
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Tånabackavägen": {
 			"id": "66850-Tånabackavägen",
 			"name": "Tånabackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4013328,
 				"lng": 22.6319005
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Älvvägen": {
 			"id": "66850-Älvvägen",
 			"name": "Älvvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4010064,
 				"lng": 22.653622
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Åkervägen": {
 			"id": "66850-Åkervägen",
 			"name": "Åkervägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.401933,
 				"lng": 22.6566104
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66850-Östra Jeppovägen": {
 			"id": "66850-Östra Jeppovägen",
 			"name": "Östra Jeppovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4280585,
 				"lng": 22.6152426
 			},
 			"zipCode": "66850"
 		},
-		{
+		"66854-": {
 			"id": "66854-",
 			"name": "",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66854"
 		},
-		{
+		"66900-Andrasjö strandväg": {
 			"id": "66900-Andrasjö strandväg",
 			"name": "Andrasjö strandväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5351087,
 				"lng": 22.4834078
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Andrasjövägen": {
 			"id": "66900-Andrasjövägen",
 			"name": "Andrasjövägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5219692,
 				"lng": 22.4894431
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Arbetaregatan": {
 			"id": "66900-Arbetaregatan",
 			"name": "Arbetaregatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5226931,
 				"lng": 22.5509382
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Badhusstigen": {
 			"id": "66900-Badhusstigen",
 			"name": "Badhusstigen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5225445,
 				"lng": 22.5185687
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bangatan": {
 			"id": "66900-Bangatan",
 			"name": "Bangatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5195594,
 				"lng": 22.539805
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bankgatan": {
 			"id": "66900-Bankgatan",
 			"name": "Bankgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5222074,
 				"lng": 22.5351597
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Berggränd": {
 			"id": "66900-Berggränd",
 			"name": "Berggränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5231103,
 				"lng": 22.5190879
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bergstigen": {
 			"id": "66900-Bergstigen",
 			"name": "Bergstigen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5236124,
 				"lng": 22.52193
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bjonsgränd": {
 			"id": "66900-Bjonsgränd",
 			"name": "Bjonsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.467142,
 				"lng": 22.5451249
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Björnmossgatan": {
 			"id": "66900-Björnmossgatan",
 			"name": "Björnmossgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Björnmossgränd": {
 			"id": "66900-Björnmossgränd",
 			"name": "Björnmossgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Blåhakegränd": {
 			"id": "66900-Blåhakegränd",
 			"name": "Blåhakegränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bockmöllergatan": {
 			"id": "66900-Bockmöllergatan",
 			"name": "Bockmöllergatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5216242,
 				"lng": 22.5400655
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bollgränd": {
 			"id": "66900-Bollgränd",
 			"name": "Bollgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5178926,
 				"lng": 22.5127671
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bonskogsvägen": {
 			"id": "66900-Bonskogsvägen",
 			"name": "Bonskogsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.49542,
 				"lng": 22.5004978
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bonäsvägen": {
 			"id": "66900-Bonäsvägen",
 			"name": "Bonäsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5074189,
 				"lng": 22.4570607
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Borgaregatan": {
 			"id": "66900-Borgaregatan",
 			"name": "Borgaregatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5232479,
 				"lng": 22.5356973
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Brahegränd": {
 			"id": "66900-Brahegränd",
 			"name": "Brahegränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Broasvägen": {
 			"id": "66900-Broasvägen",
 			"name": "Broasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5049511,
 				"lng": 22.5383896
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Buskåkersgränd": {
 			"id": "66900-Buskåkersgränd",
 			"name": "Buskåkersgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5142237,
 				"lng": 22.5279849
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Bådasvängen": {
 			"id": "66900-Bådasvängen",
 			"name": "Bådasvängen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5408541,
 				"lng": 22.5064349
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Conradigatan": {
 			"id": "66900-Conradigatan",
 			"name": "Conradigatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5426727,
 				"lng": 22.5371728
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Dalabackavägen": {
 			"id": "66900-Dalabackavägen",
 			"name": "Dalabackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4244593,
 				"lng": 22.8626281
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Diskusgränd": {
 			"id": "66900-Diskusgränd",
 			"name": "Diskusgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5171357,
 				"lng": 22.5118658
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Domherrevägen": {
 			"id": "66900-Domherrevägen",
 			"name": "Domherrevägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Drakasvägen": {
 			"id": "66900-Drakasvägen",
 			"name": "Drakasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4527692,
 				"lng": 22.5684244
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Fabriksgatan": {
 			"id": "66900-Fabriksgatan",
 			"name": "Fabriksgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5270731,
 				"lng": 22.5457636
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Fiskaregränd": {
 			"id": "66900-Fiskaregränd",
 			"name": "Fiskaregränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.52688,
 				"lng": 22.5351826
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Fjärrgränd": {
 			"id": "66900-Fjärrgränd",
 			"name": "Fjärrgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Fläskesnabbgränd": {
 			"id": "66900-Fläskesnabbgränd",
 			"name": "Fläskesnabbgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Fogdegränd": {
 			"id": "66900-Fogdegränd",
 			"name": "Fogdegränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5340343,
 				"lng": 22.5376836
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Forsbackastigen": {
 			"id": "66900-Forsbackastigen",
 			"name": "Forsbackastigen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5097662,
 				"lng": 22.5276421
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Forsbackavägen": {
 			"id": "66900-Forsbackavägen",
 			"name": "Forsbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5097662,
 				"lng": 22.5276421
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Forsbackgränd": {
 			"id": "66900-Forsbackgränd",
 			"name": "Forsbackgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Forsby byväg": {
 			"id": "66900-Forsby byväg",
 			"name": "Forsby byväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4993304,
 				"lng": 22.5426636
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Forsbygränd": {
 			"id": "66900-Forsbygränd",
 			"name": "Forsbygränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.497576,
 				"lng": 22.5568552
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Frihemsvägen": {
 			"id": "66900-Frihemsvägen",
 			"name": "Frihemsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5179167,
 				"lng": 22.5470782
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Frillmossavägen": {
 			"id": "66900-Frillmossavägen",
 			"name": "Frillmossavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5291159,
 				"lng": 22.5510306
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Furugränd": {
 			"id": "66900-Furugränd",
 			"name": "Furugränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5193199,
 				"lng": 22.5459186
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Fältskärsgatan": {
 			"id": "66900-Fältskärsgatan",
 			"name": "Fältskärsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5340266,
 				"lng": 22.5353424
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Färgaregatan": {
 			"id": "66900-Färgaregatan",
 			"name": "Färgaregatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5187174,
 				"lng": 22.5255838
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Färgaregränd": {
 			"id": "66900-Färgaregränd",
 			"name": "Färgaregränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Grangränd": {
 			"id": "66900-Grangränd",
 			"name": "Grangränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5185466,
 				"lng": 22.5447849
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Granvägen": {
 			"id": "66900-Granvägen",
 			"name": "Granvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5183831,
 				"lng": 22.5441992
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Grev Tott gatan": {
 			"id": "66900-Grev Tott gatan",
 			"name": "Grev Tott gatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5257293,
 				"lng": 22.5390237
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Gustav Adolfsgatan": {
 			"id": "66900-Gustav Adolfsgatan",
 			"name": "Gustav Adolfsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5234563,
 				"lng": 22.5335698
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Gustav Adolfsgränd": {
 			"id": "66900-Gustav Adolfsgränd",
 			"name": "Gustav Adolfsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5190642,
 				"lng": 22.5314312
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Hagagatan": {
 			"id": "66900-Hagagatan",
 			"name": "Hagagatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5180894,
 				"lng": 22.5365936
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Hantverkaregatan": {
 			"id": "66900-Hantverkaregatan",
 			"name": "Hantverkaregatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5230736,
 				"lng": 22.5525164
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Hantverkaregränd": {
 			"id": "66900-Hantverkaregränd",
 			"name": "Hantverkaregränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Haraldsrundan": {
 			"id": "66900-Haraldsrundan",
 			"name": "Haraldsrundan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4740966,
 				"lng": 22.5400481
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Hjortrongränd": {
 			"id": "66900-Hjortrongränd",
 			"name": "Hjortrongränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5253775,
 				"lng": 22.5167411
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Högbackavägen": {
 			"id": "66900-Högbackavägen",
 			"name": "Högbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5319811,
 				"lng": 22.5272084
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Hökvägen": {
 			"id": "66900-Hökvägen",
 			"name": "Hökvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Idrottsgatan": {
 			"id": "66900-Idrottsgatan",
 			"name": "Idrottsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5205716,
 				"lng": 22.5174409
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Idrottsgränd": {
 			"id": "66900-Idrottsgränd",
 			"name": "Idrottsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5199909,
 				"lng": 22.5146671
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Jakobstadsvägen": {
 			"id": "66900-Jakobstadsvägen",
 			"name": "Jakobstadsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5531563,
 				"lng": 22.5518564
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Jeansborgsgatan": {
 			"id": "66900-Jeansborgsgatan",
 			"name": "Jeansborgsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Jeansborgsvägen": {
 			"id": "66900-Jeansborgsvägen",
 			"name": "Jeansborgsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5171249,
 				"lng": 22.5341641
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Joupersgatan": {
 			"id": "66900-Joupersgatan",
 			"name": "Joupersgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5177331,
 				"lng": 22.5256568
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Juthasvägen": {
 			"id": "66900-Juthasvägen",
 			"name": "Juthasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5058416,
 				"lng": 22.5287879
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Jöns Drakes väg": {
 			"id": "66900-Jöns Drakes väg",
 			"name": "Jöns Drakes väg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5287676,
 				"lng": 22.5356601
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Karl Grönforsväg": {
 			"id": "66900-Karl Grönforsväg",
 			"name": "Karl Grönforsväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5195771,
 				"lng": 22.5422207
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Karleborgsgatan": {
 			"id": "66900-Karleborgsgatan",
 			"name": "Karleborgsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5232479,
 				"lng": 22.5356973
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Karlmansgatan": {
 			"id": "66900-Karlmansgatan",
 			"name": "Karlmansgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5211045,
 				"lng": 22.5382849
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Klockaregränd": {
 			"id": "66900-Klockaregränd",
 			"name": "Klockaregränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5181836,
 				"lng": 22.5337715
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Kolonivägen": {
 			"id": "66900-Kolonivägen",
 			"name": "Kolonivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5191834,
 				"lng": 22.5378136
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Kovjokivägen": {
 			"id": "66900-Kovjokivägen",
 			"name": "Kovjokivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5281725,
 				"lng": 22.6088869
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Kvarnvägen": {
 			"id": "66900-Kvarnvägen",
 			"name": "Kvarnvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5271611,
 				"lng": 22.5427092
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Kyrkogatan": {
 			"id": "66900-Kyrkogatan",
 			"name": "Kyrkogatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.523278,
 				"lng": 22.5278151
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Kytobacksgränd": {
 			"id": "66900-Kytobacksgränd",
 			"name": "Kytobacksgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Källbackgatan": {
 			"id": "66900-Källbackgatan",
 			"name": "Källbackgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.525013,
 				"lng": 22.5386757
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Levälävägen": {
 			"id": "66900-Levälävägen",
 			"name": "Levälävägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4595183,
 				"lng": 22.5738446
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Lingongränd": {
 			"id": "66900-Lingongränd",
 			"name": "Lingongränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5244005,
 				"lng": 22.5150667
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Lojlaxvägen": {
 			"id": "66900-Lojlaxvägen",
 			"name": "Lojlaxvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.477407,
 				"lng": 22.4547215
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Lundagatan": {
 			"id": "66900-Lundagatan",
 			"name": "Lundagatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217149,
 				"lng": 22.5162474
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Lybecksgatan": {
 			"id": "66900-Lybecksgatan",
 			"name": "Lybecksgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5242987,
 				"lng": 22.536147
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Långstrandsvägen": {
 			"id": "66900-Långstrandsvägen",
 			"name": "Långstrandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4473091,
 				"lng": 22.8388824
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Lövasvägen": {
 			"id": "66900-Lövasvägen",
 			"name": "Lövasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4618109,
 				"lng": 22.5497986
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Lövsgränd": {
 			"id": "66900-Lövsgränd",
 			"name": "Lövsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.484997,
 				"lng": 22.5347372
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Markbyvägen": {
 			"id": "66900-Markbyvägen",
 			"name": "Markbyvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5034278,
 				"lng": 22.7562409
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Markenvägen": {
 			"id": "66900-Markenvägen",
 			"name": "Markenvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4455969,
 				"lng": 22.8665776
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Mathesiusgatan": {
 			"id": "66900-Mathesiusgatan",
 			"name": "Mathesiusgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5230674,
 				"lng": 22.5377496
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Mellangatan": {
 			"id": "66900-Mellangatan",
 			"name": "Mellangatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5241416,
 				"lng": 22.522166
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Mortamavägen": {
 			"id": "66900-Mortamavägen",
 			"name": "Mortamavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Munsala riksväg": {
 			"id": "66900-Munsala riksväg",
 			"name": "Munsala riksväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4159838,
 				"lng": 22.5107672
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Munsalavägen": {
 			"id": "66900-Munsalavägen",
 			"name": "Munsalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.514881,
 				"lng": 22.5096763
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nevastvägen": {
 			"id": "66900-Nevastvägen",
 			"name": "Nevastvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4493363,
 				"lng": 22.5580366
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Norra Munsalavägen": {
 			"id": "66900-Norra Munsalavägen",
 			"name": "Norra Munsalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4953962,
 				"lng": 22.4758617
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Norrskenet": {
 			"id": "66900-Norrskenet",
 			"name": "Norrskenet",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5205517,
 				"lng": 22.5027628
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nybackagatan": {
 			"id": "66900-Nybackagatan",
 			"name": "Nybackagatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5291651,
 				"lng": 22.5210858
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nygårdsgränd": {
 			"id": "66900-Nygårdsgränd",
 			"name": "Nygårdsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5204306,
 				"lng": 22.5276199
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nygårdsvägen": {
 			"id": "66900-Nygårdsvägen",
 			"name": "Nygårdsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5195442,
 				"lng": 22.5271158
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nylandsvägen": {
 			"id": "66900-Nylandsvägen",
 			"name": "Nylandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386062,
 				"lng": 22.8372628
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nätörsvägen": {
 			"id": "66900-Nätörsvägen",
 			"name": "Nätörsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.616161,
 				"lng": 22.5078873
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Nåpevägen": {
 			"id": "66900-Nåpevägen",
 			"name": "Nåpevägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4718848,
 				"lng": 22.8524953
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Patmosgatan": {
 			"id": "66900-Patmosgatan",
 			"name": "Patmosgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.529988,
 				"lng": 22.5194706
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Pelkosgränd": {
 			"id": "66900-Pelkosgränd",
 			"name": "Pelkosgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5035037,
 				"lng": 22.5389226
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Prästgårdsgränd": {
 			"id": "66900-Prästgårdsgränd",
 			"name": "Prästgårdsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5180089,
 				"lng": 22.5318215
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Pälsvägen": {
 			"id": "66900-Pälsvägen",
 			"name": "Pälsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5329542,
 				"lng": 22.5446337
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Rajåkersgränden": {
 			"id": "66900-Rajåkersgränden",
 			"name": "Rajåkersgränden",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5152071,
 				"lng": 22.5345699
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Rajåkersstigen": {
 			"id": "66900-Rajåkersstigen",
 			"name": "Rajåkersstigen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5149339,
 				"lng": 22.5313058
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Rajåkersvägen": {
 			"id": "66900-Rajåkersvägen",
 			"name": "Rajåkersvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5149339,
 				"lng": 22.5313058
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Regnbågen": {
 			"id": "66900-Regnbågen",
 			"name": "Regnbågen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5194364,
 				"lng": 22.5056109
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Remalskroken": {
 			"id": "66900-Remalskroken",
 			"name": "Remalskroken",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5231827,
 				"lng": 22.5147169
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Renbackavägen": {
 			"id": "66900-Renbackavägen",
 			"name": "Renbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.489976,
 				"lng": 22.5329723
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Residensgatan": {
 			"id": "66900-Residensgatan",
 			"name": "Residensgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.525761,
 				"lng": 22.5216271
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Riksväg åtta": {
 			"id": "66900-Riksväg åtta",
 			"name": "Riksväg åtta",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Rudbackavägen": {
 			"id": "66900-Rudbackavägen",
 			"name": "Rudbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4557451,
 				"lng": 22.8273353
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Ryssbackavägen": {
 			"id": "66900-Ryssbackavägen",
 			"name": "Ryssbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4487233,
 				"lng": 22.5602296
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Rödhakegränd": {
 			"id": "66900-Rödhakegränd",
 			"name": "Rödhakegränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Röstmossavägen": {
 			"id": "66900-Röstmossavägen",
 			"name": "Röstmossavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sandvägen": {
 			"id": "66900-Sandvägen",
 			"name": "Sandvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5206589,
 				"lng": 22.547444
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sandåsgränd": {
 			"id": "66900-Sandåsgränd",
 			"name": "Sandåsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5055328,
 				"lng": 22.565384
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Seminariegatan": {
 			"id": "66900-Seminariegatan",
 			"name": "Seminariegatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5261522,
 				"lng": 22.5248821
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sexmansgränd": {
 			"id": "66900-Sexmansgränd",
 			"name": "Sexmansgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5173956,
 				"lng": 22.5345789
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Skeppsgatan": {
 			"id": "66900-Skeppsgatan",
 			"name": "Skeppsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5230506,
 				"lng": 22.5392948
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Skeppörsgränd": {
 			"id": "66900-Skeppörsgränd",
 			"name": "Skeppörsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Skogsgatan": {
 			"id": "66900-Skogsgatan",
 			"name": "Skogsgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5239834,
 				"lng": 22.5165899
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Skogsvaktargatan": {
 			"id": "66900-Skogsvaktargatan",
 			"name": "Skogsvaktargatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Skutasvägen": {
 			"id": "66900-Skutasvägen",
 			"name": "Skutasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4874307,
 				"lng": 22.8511871
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Smedsbackavägen": {
 			"id": "66900-Smedsbackavägen",
 			"name": "Smedsbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.529766,
 				"lng": 22.5223752
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Smedsgränd": {
 			"id": "66900-Smedsgränd",
 			"name": "Smedsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5279455,
 				"lng": 22.5215628
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Soldatåkersgränd": {
 			"id": "66900-Soldatåkersgränd",
 			"name": "Soldatåkersgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4736386,
 				"lng": 22.7938062
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sollefteågatan": {
 			"id": "66900-Sollefteågatan",
 			"name": "Sollefteågatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217836,
 				"lng": 22.5301266
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Solliden": {
 			"id": "66900-Solliden",
 			"name": "Solliden",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sorvistvägen": {
 			"id": "66900-Sorvistvägen",
 			"name": "Sorvistvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4968814,
 				"lng": 22.6552068
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Spången": {
 			"id": "66900-Spången",
 			"name": "Spången",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217189,
 				"lng": 22.5423119
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Staketgatan": {
 			"id": "66900-Staketgatan",
 			"name": "Staketgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5221321,
 				"lng": 22.5201394
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Stenbackagatan": {
 			"id": "66900-Stenbackagatan",
 			"name": "Stenbackagatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5165982,
 				"lng": 22.5095269
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Stjärnfallet": {
 			"id": "66900-Stjärnfallet",
 			"name": "Stjärnfallet",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5187588,
 				"lng": 22.4975108
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Stormossgränd": {
 			"id": "66900-Stormossgränd",
 			"name": "Stormossgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sundsbackgränd": {
 			"id": "66900-Sundsbackgränd",
 			"name": "Sundsbackgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5132138,
 				"lng": 22.5266991
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sundsbackkroken": {
 			"id": "66900-Sundsbackkroken",
 			"name": "Sundsbackkroken",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5126365,
 				"lng": 22.5257575
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sundsbackstigen": {
 			"id": "66900-Sundsbackstigen",
 			"name": "Sundsbackstigen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5119357,
 				"lng": 22.5260991
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Sundsbackvägen": {
 			"id": "66900-Sundsbackvägen",
 			"name": "Sundsbackvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5119357,
 				"lng": 22.5260991
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Södra Ringvägen": {
 			"id": "66900-Södra Ringvägen",
 			"name": "Södra Ringvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5157136,
 				"lng": 22.540447
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Tallvägen": {
 			"id": "66900-Tallvägen",
 			"name": "Tallvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5202127,
 				"lng": 22.5445576
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Topeliusesplanaden": {
 			"id": "66900-Topeliusesplanaden",
 			"name": "Topeliusesplanaden",
+			"type": "street",
 			"latLng": {
 				"lat": 63.523653,
 				"lng": 22.531456
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Trädgårdsmästaregränd": {
 			"id": "66900-Trädgårdsmästaregränd",
 			"name": "Trädgårdsmästaregränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Tvärgatan": {
 			"id": "66900-Tvärgatan",
 			"name": "Tvärgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5214208,
 				"lng": 22.5172635
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Värnamogatan": {
 			"id": "66900-Värnamogatan",
 			"name": "Värnamogatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.516868,
 				"lng": 22.5152729
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Värnamogränd": {
 			"id": "66900-Värnamogränd",
 			"name": "Värnamogränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5178093,
 				"lng": 22.5167583
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Västanlid": {
 			"id": "66900-Västanlid",
 			"name": "Västanlid",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5289807,
 				"lng": 22.5233536
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Västra Jeppovägen": {
 			"id": "66900-Västra Jeppovägen",
 			"name": "Västra Jeppovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4222256,
 				"lng": 22.6048085
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Ytterjeppovägen": {
 			"id": "66900-Ytterjeppovägen",
 			"name": "Ytterjeppovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4766038,
 				"lng": 22.5281074
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Älvgränd": {
 			"id": "66900-Älvgränd",
 			"name": "Älvgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5194992,
 				"lng": 22.5263373
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Åminnegränd": {
 			"id": "66900-Åminnegränd",
 			"name": "Åminnegränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5500556,
 				"lng": 22.5284206
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Åminnevägen": {
 			"id": "66900-Åminnevägen",
 			"name": "Åminnevägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5431136,
 				"lng": 22.5333637
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Östanlid": {
 			"id": "66900-Östanlid",
 			"name": "Östanlid",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5207143,
 				"lng": 22.5411701
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Östra Jeppovägen": {
 			"id": "66900-Östra Jeppovägen",
 			"name": "Östra Jeppovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4280585,
 				"lng": 22.6152426
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66900-Östra Åvägen": {
 			"id": "66900-Östra Åvägen",
 			"name": "Östra Åvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4783453,
 				"lng": 22.5318815
 			},
 			"zipCode": "66900"
 		},
-		{
+		"66901-": {
 			"id": "66901-",
 			"name": "",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66901"
 		},
-		{
+		"66904-": {
 			"id": "66904-",
 			"name": "",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5217598,
 				"lng": 22.5303558
 			},
 			"zipCode": "66904"
 		},
-		{
+		"66910-Frostasvägen": {
 			"id": "66910-Frostasvägen",
 			"name": "Frostasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5764439,
 				"lng": 22.5810755
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Granviksvägen": {
 			"id": "66910-Granviksvägen",
 			"name": "Granviksvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5768459,
 				"lng": 22.5049613
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Grisselören": {
 			"id": "66910-Grisselören",
 			"name": "Grisselören",
+			"type": "street",
 			"latLng": {
 				"lat": 63.61204689999999,
 				"lng": 22.4921222
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Heidesvägen": {
 			"id": "66910-Heidesvägen",
 			"name": "Heidesvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5671757,
 				"lng": 22.6190809
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Henriksnäsvägen": {
 			"id": "66910-Henriksnäsvägen",
 			"name": "Henriksnäsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5735615,
 				"lng": 22.5462255
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Hintzvägen": {
 			"id": "66910-Hintzvägen",
 			"name": "Hintzvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5704452,
 				"lng": 22.5767411
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Jakobstadsvägen": {
 			"id": "66910-Jakobstadsvägen",
 			"name": "Jakobstadsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5644178,
 				"lng": 22.5683521
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Lillsocklotvägen": {
 			"id": "66910-Lillsocklotvägen",
 			"name": "Lillsocklotvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5735615,
 				"lng": 22.5462255
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Lärarsvägen": {
 			"id": "66910-Lärarsvägen",
 			"name": "Lärarsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.6107585,
 				"lng": 22.4928648
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Rijfs väg": {
 			"id": "66910-Rijfs väg",
 			"name": "Rijfs väg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5650944,
 				"lng": 22.5503492
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Sandövägen": {
 			"id": "66910-Sandövägen",
 			"name": "Sandövägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.6027315,
 				"lng": 22.4747333
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Socklotvägen": {
 			"id": "66910-Socklotvägen",
 			"name": "Socklotvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5855463,
 				"lng": 22.5401866
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Tavastvägen": {
 			"id": "66910-Tavastvägen",
 			"name": "Tavastvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5609161,
 				"lng": 22.5731789
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Tranbärsvägen": {
 			"id": "66910-Tranbärsvägen",
 			"name": "Tranbärsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5817946,
 				"lng": 22.5377754
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Tågsgränd": {
 			"id": "66910-Tågsgränd",
 			"name": "Tågsgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5655256,
 				"lng": 22.5587146
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Västanträskvägen": {
 			"id": "66910-Västanträskvägen",
 			"name": "Västanträskvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5663086,
 				"lng": 22.5994178
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Ågärdsvägen": {
 			"id": "66910-Ågärdsvägen",
 			"name": "Ågärdsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5587844,
 				"lng": 22.5707276
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Åminnevägen": {
 			"id": "66910-Åminnevägen",
 			"name": "Åminnevägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5580228,
 				"lng": 22.5428763
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Burevägen": {
 			"id": "66910-Burevägen",
 			"name": "Burevägen",
+			"type": "street",
 			"latLng": {
-				"lat": 63.5735615,
-				"lng": 22.5462255
+				"lat": 63.5217598,
+				"lng": 22.5303558
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Grevvägen": {
 			"id": "66910-Grevvägen",
 			"name": "Grevvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.7423884,
 				"lng": 22.7325051
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Gråsövägen": {
 			"id": "66910-Gråsövägen",
 			"name": "Gråsövägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5653263,
 				"lng": 22.5204078
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Hemmingvägen": {
 			"id": "66910-Hemmingvägen",
 			"name": "Hemmingvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5735615,
 				"lng": 22.5462255
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Larshällvägen": {
 			"id": "66910-Larshällvägen",
 			"name": "Larshällvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.6016359,
 				"lng": 22.4596395
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Nyvägen": {
 			"id": "66910-Nyvägen",
 			"name": "Nyvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5680681,
 				"lng": 22.569299
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Simas torpväg": {
 			"id": "66910-Simas torpväg",
 			"name": "Simas torpväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5735615,
 				"lng": 22.5462255
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Tackelgrundsvägen": {
 			"id": "66910-Tackelgrundsvägen",
 			"name": "Tackelgrundsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.6158798,
 				"lng": 22.4900975
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Vedören": {
 			"id": "66910-Vedören",
 			"name": "Vedören",
+			"type": "street",
 			"latLng": {
 				"lat": 63.620551,
 				"lng": 22.5098372
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66910-Åminnestrandväg": {
 			"id": "66910-Åminnestrandväg",
 			"name": "Åminnestrandväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5547943,
 				"lng": 22.5221528
 			},
 			"zipCode": "66910"
 		},
-		{
+		"66930-Framstuvägen": {
 			"id": "66930-Framstuvägen",
 			"name": "Framstuvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5465121,
 				"lng": 22.6990047
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Gjuterivägen": {
 			"id": "66930-Gjuterivägen",
 			"name": "Gjuterivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5195162,
 				"lng": 22.6827248
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Granbäcksvägen": {
 			"id": "66930-Granbäcksvägen",
 			"name": "Granbäcksvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5410685,
 				"lng": 22.6961493
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Hosibackavägen": {
 			"id": "66930-Hosibackavägen",
 			"name": "Hosibackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5410894,
 				"lng": 22.7100731
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Hysalvägen": {
 			"id": "66930-Hysalvägen",
 			"name": "Hysalvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5122665,
 				"lng": 22.7020391
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Industrivägen": {
 			"id": "66930-Industrivägen",
 			"name": "Industrivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5503979,
 				"lng": 22.7085039
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Kovjoki riksväg": {
 			"id": "66930-Kovjoki riksväg",
 			"name": "Kovjoki riksväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5302552,
 				"lng": 22.6797538
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Källmossvägen": {
 			"id": "66930-Källmossvägen",
 			"name": "Källmossvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5374868,
 				"lng": 22.6760173
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Lukusvägen": {
 			"id": "66930-Lukusvägen",
 			"name": "Lukusvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5292432,
 				"lng": 22.7087064
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Lövsvedenvägen": {
 			"id": "66930-Lövsvedenvägen",
 			"name": "Lövsvedenvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5235145,
 				"lng": 22.7267944
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Lövögränd": {
 			"id": "66930-Lövögränd",
 			"name": "Lövögränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5487846,
 				"lng": 22.7165806
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Mannforsvägen": {
 			"id": "66930-Mannforsvägen",
 			"name": "Mannforsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5173866,
 				"lng": 22.7002838
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Markbyvägen": {
 			"id": "66930-Markbyvägen",
 			"name": "Markbyvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5066243,
 				"lng": 22.7504642
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Nabbavägen": {
 			"id": "66930-Nabbavägen",
 			"name": "Nabbavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5286304,
 				"lng": 22.6887882
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Nyåkersvägen": {
 			"id": "66930-Nyåkersvägen",
 			"name": "Nyåkersvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5457185,
 				"lng": 22.6815246
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Riksväg åtta": {
 			"id": "66930-Riksväg åtta",
 			"name": "Riksväg åtta",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5234221,
 				"lng": 22.6976493
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Sågvägen": {
 			"id": "66930-Sågvägen",
 			"name": "Sågvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5436455,
 				"lng": 22.6941727
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Utförevägen": {
 			"id": "66930-Utförevägen",
 			"name": "Utförevägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5520004,
 				"lng": 22.681646
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Vannäsbackavägen": {
 			"id": "66930-Vannäsbackavägen",
 			"name": "Vannäsbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5495856,
 				"lng": 22.6814741
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Åmansvägen": {
 			"id": "66930-Åmansvägen",
 			"name": "Åmansvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5431136,
 				"lng": 22.5333637
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66930-Ångloksvägen": {
 			"id": "66930-Ångloksvägen",
 			"name": "Ångloksvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.524627,
 				"lng": 22.6833785
 			},
 			"zipCode": "66930"
 		},
-		{
+		"66950-Björkbackavägen": {
 			"id": "66950-Björkbackavägen",
 			"name": "Björkbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4032484,
 				"lng": 22.52223
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Brotthällsvägen": {
 			"id": "66950-Brotthällsvägen",
 			"name": "Brotthällsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Fiskhamnsvägen": {
 			"id": "66950-Fiskhamnsvägen",
 			"name": "Fiskhamnsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4894226,
 				"lng": 22.3276165
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Genvägen": {
 			"id": "66950-Genvägen",
 			"name": "Genvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Glasbruksvägen": {
 			"id": "66950-Glasbruksvägen",
 			"name": "Glasbruksvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4603446,
 				"lng": 22.3942734
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Grundövägen": {
 			"id": "66950-Grundövägen",
 			"name": "Grundövägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5058599,
 				"lng": 22.3761846
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Gräsören": {
 			"id": "66950-Gräsören",
 			"name": "Gräsören",
+			"type": "street",
 			"latLng": {
 				"lat": 63.48349589999999,
 				"lng": 22.4234238
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Grötgatan": {
 			"id": "66950-Grötgatan",
 			"name": "Grötgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Guttabergsvägen": {
 			"id": "66950-Guttabergsvägen",
 			"name": "Guttabergsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Hagavägen": {
 			"id": "66950-Hagavägen",
 			"name": "Hagavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4519984,
 				"lng": 22.4360594
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Hantverkarevägen": {
 			"id": "66950-Hantverkarevägen",
 			"name": "Hantverkarevägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4462467,
 				"lng": 22.4432744
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Harjuxvägen": {
 			"id": "66950-Harjuxvägen",
 			"name": "Harjuxvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3754312,
 				"lng": 22.4683036
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Hirvlaxvägen": {
 			"id": "66950-Hirvlaxvägen",
 			"name": "Hirvlaxvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4209983,
 				"lng": 22.3979402
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Härihällvägen": {
 			"id": "66950-Härihällvägen",
 			"name": "Härihällvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Innerbyvägen": {
 			"id": "66950-Innerbyvägen",
 			"name": "Innerbyvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4866541,
 				"lng": 22.3697466
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Jussilavägen": {
 			"id": "66950-Jussilavägen",
 			"name": "Jussilavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3827699,
 				"lng": 22.5050451
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Krokösundsvägen": {
 			"id": "66950-Krokösundsvägen",
 			"name": "Krokösundsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Kyrkbacken": {
 			"id": "66950-Kyrkbacken",
 			"name": "Kyrkbacken",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4540966,
 				"lng": 22.4349285
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Lappnetvägen": {
 			"id": "66950-Lappnetvägen",
 			"name": "Lappnetvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.6589513,
 				"lng": 22.6968722
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Lillsandsvägen": {
 			"id": "66950-Lillsandsvägen",
 			"name": "Lillsandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4940876,
 				"lng": 22.4017274
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Lojlaxvägen": {
 			"id": "66950-Lojlaxvägen",
 			"name": "Lojlaxvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4816514,
 				"lng": 22.452965
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Minivägen": {
 			"id": "66950-Minivägen",
 			"name": "Minivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4462856,
 				"lng": 22.4412639
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Myrbackavägen": {
 			"id": "66950-Myrbackavägen",
 			"name": "Myrbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.462712,
 				"lng": 22.4316014
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Nederbyvägen": {
 			"id": "66950-Nederbyvägen",
 			"name": "Nederbyvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Norra Munsalavägen": {
 			"id": "66950-Norra Munsalavägen",
 			"name": "Norra Munsalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4840619,
 				"lng": 22.4609528
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Näsibackavägen": {
 			"id": "66950-Näsibackavägen",
 			"name": "Näsibackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4593083,
 				"lng": 22.4494458
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Peltmovägen": {
 			"id": "66950-Peltmovägen",
 			"name": "Peltmovägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4101266,
 				"lng": 22.4513777
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Piggränd": {
 			"id": "66950-Piggränd",
 			"name": "Piggränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.459834,
 				"lng": 22.4359105
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Plåtslagarvägen": {
 			"id": "66950-Plåtslagarvägen",
 			"name": "Plåtslagarvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4442379,
 				"lng": 22.4300147
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Ribackvägen": {
 			"id": "66950-Ribackvägen",
 			"name": "Ribackvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4487318,
 				"lng": 22.4367846
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Roparsandsvägen": {
 			"id": "66950-Roparsandsvägen",
 			"name": "Roparsandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.478726,
 				"lng": 22.3470225
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Rävmossavägen": {
 			"id": "66950-Rävmossavägen",
 			"name": "Rävmossavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4856957,
 				"lng": 22.3904127
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Sandbackavägen": {
 			"id": "66950-Sandbackavägen",
 			"name": "Sandbackavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4658163,
 				"lng": 22.447002
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Skogshagarundan": {
 			"id": "66950-Skogshagarundan",
 			"name": "Skogshagarundan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4390723,
 				"lng": 22.4578864
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Storhagavägen": {
 			"id": "66950-Storhagavägen",
 			"name": "Storhagavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4900271,
 				"lng": 22.3520434
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Storsvedsvägen": {
 			"id": "66950-Storsvedsvägen",
 			"name": "Storsvedsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3967216,
 				"lng": 22.4501207
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Södra Munsalavägen": {
 			"id": "66950-Södra Munsalavägen",
 			"name": "Södra Munsalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4187597,
 				"lng": 22.4496019
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Södra Sandskavägen": {
 			"id": "66950-Södra Sandskavägen",
 			"name": "Södra Sandskavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Tärneshällvägen": {
 			"id": "66950-Tärneshällvägen",
 			"name": "Tärneshällvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.43859659999999,
 				"lng": 22.4569775
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Uddenvägen": {
 			"id": "66950-Uddenvägen",
 			"name": "Uddenvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4666044,
 				"lng": 22.4229729
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Vattungsvägen": {
 			"id": "66950-Vattungsvägen",
 			"name": "Vattungsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.5066196,
 				"lng": 22.3592052
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Vexalavägen": {
 			"id": "66950-Vexalavägen",
 			"name": "Vexalavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4841316,
 				"lng": 22.3825926
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Viksgatan": {
 			"id": "66950-Viksgatan",
 			"name": "Viksgatan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4534173,
 				"lng": 22.439068
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Viksgränd": {
 			"id": "66950-Viksgränd",
 			"name": "Viksgränd",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4546939,
 				"lng": 22.4382708
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Öjskatavägen": {
 			"id": "66950-Öjskatavägen",
 			"name": "Öjskatavägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4770353,
 				"lng": 22.4246305
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66950-Öjvägen": {
 			"id": "66950-Öjvägen",
 			"name": "Öjvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.442376,
 				"lng": 22.4353595
 			},
 			"zipCode": "66950"
 		},
-		{
+		"66970-Alihamnsvägen": {
 			"id": "66970-Alihamnsvägen",
 			"name": "Alihamnsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Bertilsrundan": {
 			"id": "66970-Bertilsrundan",
 			"name": "Bertilsrundan",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4219978,
 				"lng": 22.2841872
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Getingsandsvägen": {
 			"id": "66970-Getingsandsvägen",
 			"name": "Getingsandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4798168,
 				"lng": 22.3114637
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Hirvlaxvägen": {
 			"id": "66970-Hirvlaxvägen",
 			"name": "Hirvlaxvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4204496,
 				"lng": 22.3940431
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Hummelholmsvägen": {
 			"id": "66970-Hummelholmsvägen",
 			"name": "Hummelholmsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4529459,
 				"lng": 22.3584175
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Hövörsvägen": {
 			"id": "66970-Hövörsvägen",
 			"name": "Hövörsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Kantlaxvägen": {
 			"id": "66970-Kantlaxvägen",
 			"name": "Kantlaxvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4130473,
 				"lng": 22.3116311
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Kanäs strandväg": {
 			"id": "66970-Kanäs strandväg",
 			"name": "Kanäs strandväg",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Kanäsvägen": {
 			"id": "66970-Kanäsvägen",
 			"name": "Kanäsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.396929,
 				"lng": 22.3701803
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Klintvägen": {
 			"id": "66970-Klintvägen",
 			"name": "Klintvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Kåtaholmsvägen": {
 			"id": "66970-Kåtaholmsvägen",
 			"name": "Kåtaholmsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4725733,
 				"lng": 22.3279798
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Laggarsvägen": {
 			"id": "66970-Laggarsvägen",
 			"name": "Laggarsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4178228,
 				"lng": 22.2763083
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Laggnäsvägen": {
 			"id": "66970-Laggnäsvägen",
 			"name": "Laggnäsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4429272,
 				"lng": 22.3677546
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Långkärrsvägen": {
 			"id": "66970-Långkärrsvägen",
 			"name": "Långkärrsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Långmossvägen": {
 			"id": "66970-Långmossvägen",
 			"name": "Långmossvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4533269,
 				"lng": 22.3313842
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Monäsvägen": {
 			"id": "66970-Monäsvägen",
 			"name": "Monäsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4444783,
 				"lng": 22.352185
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Monåvägen": {
 			"id": "66970-Monåvägen",
 			"name": "Monåvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3962901,
 				"lng": 22.3559934
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Mårtisvägen": {
 			"id": "66970-Mårtisvägen",
 			"name": "Mårtisvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Nybyvägen": {
 			"id": "66970-Nybyvägen",
 			"name": "Nybyvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4265188,
 				"lng": 22.2856388
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Oljehamnsvägen": {
 			"id": "66970-Oljehamnsvägen",
 			"name": "Oljehamnsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3992407,
 				"lng": 22.3094848
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Ombytesvägen": {
 			"id": "66970-Ombytesvägen",
 			"name": "Ombytesvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4386448,
 				"lng": 22.3053113
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Pelatvägen": {
 			"id": "66970-Pelatvägen",
 			"name": "Pelatvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4027143,
 				"lng": 22.3825661
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Pethvägen": {
 			"id": "66970-Pethvägen",
 			"name": "Pethvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4017595,
 				"lng": 22.3592392
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Rävasvägen": {
 			"id": "66970-Rävasvägen",
 			"name": "Rävasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4174331,
 				"lng": 22.2928338
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Sjövägen": {
 			"id": "66970-Sjövägen",
 			"name": "Sjövägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4212643,
 				"lng": 22.2708092
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Skyttasvägen": {
 			"id": "66970-Skyttasvägen",
 			"name": "Skyttasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4239807,
 				"lng": 22.3118208
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Spårasvägen": {
 			"id": "66970-Spårasvägen",
 			"name": "Spårasvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4118737,
 				"lng": 22.3006795
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Storsandsvägen": {
 			"id": "66970-Storsandsvägen",
 			"name": "Storsandsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.4742431,
 				"lng": 22.2953045
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66970-Sundvägen": {
 			"id": "66970-Sundvägen",
 			"name": "Sundvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3954925,
 				"lng": 22.3490547
 			},
 			"zipCode": "66970"
 		},
-		{
+		"66980-Gabilsvägen": {
 			"id": "66980-Gabilsvägen",
 			"name": "Gabilsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3853477,
 				"lng": 22.3642032
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Gunilackvägen": {
 			"id": "66980-Gunilackvägen",
 			"name": "Gunilackvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3606387,
 				"lng": 22.4145245
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Knutsvägen": {
 			"id": "66980-Knutsvägen",
 			"name": "Knutsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3799716,
 				"lng": 22.3595226
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Makalösvägen": {
 			"id": "66980-Makalösvägen",
 			"name": "Makalösvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3827438,
 				"lng": 22.3706722
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Monåvägen": {
 			"id": "66980-Monåvägen",
 			"name": "Monåvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3840158,
 				"lng": 22.371358
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Pansastået": {
 			"id": "66980-Pansastået",
 			"name": "Pansastået",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3853477,
 				"lng": 22.3642032
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Rivägen": {
 			"id": "66980-Rivägen",
 			"name": "Rivägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3933195,
 				"lng": 22.353715
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Sandgärdsvägen": {
 			"id": "66980-Sandgärdsvägen",
 			"name": "Sandgärdsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3870389,
 				"lng": 22.3561782
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Sundvägen": {
 			"id": "66980-Sundvägen",
 			"name": "Sundvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3900749,
 				"lng": 22.3535887
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Träskvägen": {
 			"id": "66980-Träskvägen",
 			"name": "Träskvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3920888,
 				"lng": 22.3678168
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Ytterholmsvägen": {
 			"id": "66980-Ytterholmsvägen",
 			"name": "Ytterholmsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3853477,
 				"lng": 22.3642032
 			},
 			"zipCode": "66980"
 		},
-		{
+		"66980-Östergärdsvägen": {
 			"id": "66980-Östergärdsvägen",
 			"name": "Östergärdsvägen",
+			"type": "street",
 			"latLng": {
 				"lat": 63.3953695,
 				"lng": 22.3597555
 			},
 			"zipCode": "66980"
 		}
-	]
+	}
 }
