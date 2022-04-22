@@ -20,9 +20,7 @@
   "homepage": "https://github.com/erikhayry/nkby-2022#readme",
   "dependencies": {
     "@google/maps": "*",
-    "crawler": "*",
     "dotenv": "*",
-    "jsdom": "*",
     "listr": "*",
     "ts-node": "*",
     "typescript": "*"
@@ -30,10 +28,8 @@
   "devDependencies": {
     "@tsconfig/node16": "*",
     "@tsconfig/recommended": "*",
-    "@types/crawler": "*",
     "@types/google__maps": "*",
     "@types/jest": "*",
-    "@types/jsdom": "*",
     "@types/listr": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
