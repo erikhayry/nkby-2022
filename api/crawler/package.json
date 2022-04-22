@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "crawler": "*",
+    "jsdom": "*",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },
   "devDependencies": {
     "@types/node": "17.0.25",
+    "@types/nodemailer": "^6.4.4",
     "@types/react": "18.0.6",
     "@types/react-dom": "18.0.2",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
+    "nodemailer": "^6.7.3",
     "typescript": "4.6.3"
   }
 }

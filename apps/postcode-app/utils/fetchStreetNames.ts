@@ -1,4 +1,4 @@
-import { crawl } from '../../../utils/crawler'
+import { crawl } from '../../../api/crawler/utils/crawler'
 import { POSTI_URL } from '../../config'
 import { PCZipcode, PCZipcodeWithStreetNames } from '../types'
 import { removeEmptySpace } from './regex'
@@ -11,17 +11,17 @@ function isEmptyElement (textContent: string | null): textContent is string {
   return Boolean(textContent)
 }
 
-function elementToTextContent ({ textContent }: Element): string | null {
+function toTextContent ({ textContent }: Element): string | null {
   return textContent
 }
 
 async function fetchStreetNamesForZipcode (path: string): Promise<string[]> {
   const elements = await crawl(`${POSTI_URL}${path}`, '.data table table td div:not(.ipono_tooltip)')
 
-  return elements.map(elementToTextContent).filter(isEmptyElement).map(elementToStreetName)
+  return elements.map(toTextContent).filter(isEmptyElement).map(elementToStreetName)
 }
 
-async function zipCodeToStreetNames (streetNames: Promise<PCZipcodeWithStreetNames>, { href, zipcode }: PCZipcode): Promise<PCZipcodeWithStreetNames> {
+async function toStreetNames (streetNames: Promise<PCZipcodeWithStreetNames>, { href, zipcode }: PCZipcode): Promise<PCZipcodeWithStreetNames> {
   const partial = await streetNames
 
   if (href) {
@@ -32,5 +32,5 @@ async function zipCodeToStreetNames (streetNames: Promise<PCZipcodeWithStreetNam
 }
 
 export async function fetchStreetNames (zipCodes: PCZipcode[]): Promise<PCZipcodeWithStreetNames> {
-  return await zipCodes.reduce(zipCodeToStreetNames, {} as Promise<PCZipcodeWithStreetNames>)
+  return await zipCodes.reduce(toStreetNames, {} as Promise<PCZipcodeWithStreetNames>)
 }

@@ -1,12 +1,10 @@
 import { JSDOM } from 'jsdom'
-import * as Crawler from 'crawler'
+import Crawler from 'crawler'
 
 const CRAWLER_CONF = {
   maxConnections: 10,
   jQuery: JSDOM
 }
-
-
 
 export async function crawl (url: string | string[], selector: string): Promise<Element[]> {
   const elements: Element[] = []
@@ -18,7 +16,10 @@ export async function crawl (url: string | string[], selector: string): Promise<
           console.log(error)
           return []
         } else {
+          console.log(response.body);
+          
           const document = new JSDOM(response.body).window.document
+          
           const newElements = Array.from(document.querySelectorAll(selector))
           elements.push(...newElements)
         }
