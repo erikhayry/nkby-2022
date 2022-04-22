@@ -15,9 +15,7 @@ export async function crawl (url: string | string[], selector: string): Promise<
         if (error) {
           console.log(error)
           return []
-        } else {
-          console.log(response.body);
-          
+        } else {          
           const document = new JSDOM(response.body).window.document
           
           const newElements = Array.from(document.querySelectorAll(selector))
