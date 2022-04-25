@@ -10,7 +10,11 @@ export default async function handler(
   const elements = await crawl("https://www.nykarlebyvyer.nu/sidor/paraden.htm", 'p')
   const text = elements.map(({ textContent }) => textContent).join(', ');
 
-  mail(text)
+  const mailSent = await mail(text)
 
-  res.status(200).send(text)
+  if(mailSent){
+    res.status(200).send('ok')
+  } else {
+    res.status(500).send('failed to send email')
+  }
 }

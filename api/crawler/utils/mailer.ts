@@ -9,11 +9,19 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-export async function mail(text: string){    
-    await transporter.sendMail({
+export async function mail(text: string): Promise<boolean>{    
+    const info = await transporter.sendMail({
         from: process.env.MAIL_USER, 
         to: process.env.MAIL_TO,
         subject: "Crawler result", 
         text
     });
+
+    console.log(info);
+    
+    if(info.rejected.length > 0){
+        return false
+    }
+
+    return true
 }

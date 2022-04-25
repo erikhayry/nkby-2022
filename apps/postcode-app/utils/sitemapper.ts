@@ -4,7 +4,7 @@ function toUrlString(element: Element) {
     return element.getAttribute('href')
 }
 
-function awayEmptyLinks(href: string | null): href is string{
+function outEmptyLinks(href: string | null): href is string{
     return Boolean(href)
 }
 
@@ -12,36 +12,51 @@ function toAbsolutePath(href: string, url: string): string{
     return new URL(href,url).href;
 }
 
+function toUrlWithoutParams(url: string): string{
+    const { origin, pathname } =  new URL(url);    
+
+    return `${origin}${pathname}`
+}
+
+function outThirdPartyUrls(href: string): boolean {    
+    return href.startsWith("https://www.nykarlebyvyer.nu/")
+}
+
 async function crawlUrlForLinks(url: string): Promise<string[]>{
-    console.log("crawlUrlForLinks", url);
+    console.log('crawl: ', url);
+    
     const links = await crawl(url, 'a');
     
-    return links.map(toUrlString).filter(awayEmptyLinks).map((href) => toAbsolutePath(href, url));
+    return links
+    .map(toUrlString)
+    .filter(outEmptyLinks)
+    .map((href) => toAbsolutePath(href, url))
+    .map(toUrlWithoutParams)
+    .filter(outThirdPartyUrls);
 }
 
-function outAllreadyVisited(url: string, visitedLinks: string[]){
-    return !visitedLinks.includes(url);
+async function visit(visitedPages: Promise<string[]>, link: string){
+    const partial = await visitedPages;
+
+    if(!partial.includes(link)){
+        const links = await crawlUrlForLinks(link);        
+        partial.push(link)
+
+        return recursive(links, partial)
+    }
+
+    return partial
 }
 
-async function recursive(acc: Promise<string[]>, urlToCrawl: string): Promise<string[]>{
-        const visitedLinks = await acc;
-        const unvisitedLinks = await crawlUrlForLinks(urlToCrawl);
-        console.log("unvisitedLinks", unvisitedLinks);
-    
-        //const visited = await unvisitedLinks.filter((url) => outAllreadyVisited(url, visitedLinks)).reduce(recursive, acc)
-        //visitedLinks.concat(...visited)
-        
-
-        
-        return visitedLinks.concat(...unvisitedLinks)
-
+function recursive(linksToVisit: string[], visitedPages: string[]): Promise<string[]>{
+    return linksToVisit.reduce(visit, Promise.resolve(visitedPages))
 }
+
 
 export async function buildSitemap(url: string){
     console.log(url);
     
-    const allLinks = await [url].reduce(recursive, Promise.resolve([] as string[]))
-
+    const allLinks = await recursive([url], [])
     console.log(allLinks);
     
 }
