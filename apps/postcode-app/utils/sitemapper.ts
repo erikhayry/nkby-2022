@@ -1,4 +1,4 @@
-import { crawl } from "../../../api/crawler/utils/crawler";
+import crawl from "crawl";
 
 function toUrlString(element: Element) {
     return element.getAttribute('href')

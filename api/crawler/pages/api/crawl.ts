@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { crawl } from '../../utils/crawler'
 import { mail } from '../../utils/mailer'
+import crawl from "crawl";
 
 export default async function handler(
   req: NextApiRequest,

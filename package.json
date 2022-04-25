@@ -24,7 +24,8 @@
     "dotenv": "*",
     "listr": "*",
     "ts-node": "*",
-    "typescript": "*"
+    "typescript": "*",
+     "crawl": "file:./modules/crawl"
   },
   "devDependencies": {
     "@tsconfig/node16": "*",

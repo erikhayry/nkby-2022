@@ -1,4 +1,4 @@
-import { crawl } from '../../../api/crawler/utils/crawler'
+import { crawl } from '../../../modules/crawl'
 import { POSTI_URL } from '../../config'
 import { PCZipcode, PCZipcodeWithStreetNames } from '../types'
 import { removeEmptySpace } from './regex'
