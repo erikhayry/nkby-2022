@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --no-cache",
-    "start:post-code": "ts-node-transpile-only ./apps/postcode-app/index.ts",
-    "start:geo-coder": "ts-node-transpile-only ./apps/postcode-app/utils/geocoder.ts",
-    "start:sitemapper": "ts-node-transpile-only ./apps/postcode-app/utils/sitemapper.ts"
+    "start:post-code": "ts-node-transpile-only ./node-apps/postcode-app/index.ts",
+    "start:geo-coder": "ts-node-transpile-only ./node-apps/postcode-app/utils/geocoder.ts",
+    "start:sitemapper": "ts-node-transpile-only ./node-apps/postcode-app/utils/sitemapper.ts"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,9 @@
     "listr": "*",
     "ts-node": "*",
     "typescript": "*",
-     "crawl": "file:./modules/crawl"
+     "crawl": "file:./modules/crawl",
+         "crawler": "*",
+    "jsdom": "*"
   },
   "devDependencies": {
     "@tsconfig/node16": "*",
@@ -45,6 +47,7 @@
     "jest": "*",
     "prettier": "*",
     "ts-jest": "*",
-    "typescript": "*"
+    "typescript": "*",    "@types/crawler": "*",
+    "@types/jsdom": "*"
   }
 }

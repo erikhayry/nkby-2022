@@ -9,7 +9,7 @@
     "sourceMap": true,
     "typeRoots": [
       "types/",
-      "apps/postcode-app/types/",
+      "node-apps/postcode-app/types",
       "node_modules/@types"
     ]
   }
