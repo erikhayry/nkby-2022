@@ -15,6 +15,7 @@ export default async function handler(
   if(mailSent){
     res.status(200).send('ok')
   } else {
-    res.status(500).send('failed to send email')
+      res.status(500).send('failed to send email')
   }
 }
+
