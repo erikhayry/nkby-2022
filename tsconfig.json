@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
     "strict": true,
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
     "esModuleInterop": true,
-    "sourceMap": true,
-    "typeRoots": [
-      "types/",
-      "node-apps/postcode-app/types",
-      "node_modules/@types"
-    ]
-  }
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
