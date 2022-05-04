@@ -1,4 +1,5 @@
 import mongoose, { model, Schema } from 'mongoose'
+import { backup } from '../backup/backup'
 
 export enum ACTION_NAME {
     CRAWL = 'crawl',
@@ -38,5 +39,5 @@ export async function saveAction(name: ACTION_NAME) {
     const filter = {}
     const all = await Action.find(filter)
 
-    console.log(all)
+    backup(JSON.stringify(all.map((data) => data.toJSON())))
 }

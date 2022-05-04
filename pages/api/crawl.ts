@@ -13,7 +13,6 @@ export default async function handler(
         'p'
     )
     const text = elements.map(({ textContent }) => textContent).join(', ')
-
     const mailSent = await mail(text)
 
     if (mailSent) {
