@@ -1,5 +1,4 @@
 import mongoose, { model, Schema } from 'mongoose'
-import { validate } from 'node-cron'
 
 export enum ACTION_NAME {
     CRAWL = 'crawl',
