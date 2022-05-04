@@ -1,9 +1,13 @@
 const cron = require('node-cron')
 const axios = require('axios')
+const LOCAL_URL = 'http://localhost:3000'
 
-cron.schedule('* * * * *', () => {
+const EVERY_MINUTE = '* * * * *'
+
+cron.schedule(EVERY_MINUTE, () => {
+    console.log('cron job')
     axios
-        .get('http://localhost:3000/api/crawl')
+        .get(`${LOCAL_URL}/api/crawl`)
         .then((res) => {
             console.log(`statusCode: ${res.data}`)
         })

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start:local": "concurrently \"npm run db:start\"  \"npm run dev\" \"npm run cron\"",
+    "start:local": "concurrently  \"npm run start:nkby\"  \"npm run db:start\"  \"npm run dev\" \"npm run cron\"",
+    "start:nkby": "http-server ./local-data/www.nykarlebyvyer.nu",
     "db:start": "brew services start mongodb-community",
     "db:stop": "brew services stop mongodb-community",
     "cron": "node cron/index.js",
@@ -39,6 +40,7 @@
     "concurrently": "^7.1.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.5",
+    "http-server": "^14.1.0",
     "prettier": "^2.6.2",
     "typescript": "4.6.3"
   }

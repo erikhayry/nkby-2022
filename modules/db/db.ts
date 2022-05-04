@@ -1,4 +1,5 @@
 import mongoose, { model, Schema } from 'mongoose'
+import { DB_URL } from '../../config'
 import { backup } from '../backup/backup'
 
 export enum ACTION_NAME {
@@ -24,8 +25,7 @@ const actionSchema = new Schema<IAction>({
 const Action = model<IAction>('Action', actionSchema)
 
 async function connect() {
-    await mongoose.connect('mongodb://localhost:27017/nkby')
-    console.log('connected')
+    await mongoose.connect(DB_URL)
 }
 
 export async function saveAction(name: ACTION_NAME) {
