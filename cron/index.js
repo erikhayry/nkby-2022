@@ -1,7 +1,7 @@
 const cron = require('node-cron')
 const axios = require('axios')
-const LOCAL_URL = 'http://localhost:3000'
 
+const LOCAL_URL = 'http://localhost:3000'
 const EVERY_MINUTE = '* * * * *'
 
 cron.schedule(EVERY_MINUTE, () => {

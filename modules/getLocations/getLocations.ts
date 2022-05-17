@@ -1,35 +1,20 @@
-import { PCLocation } from '../../types'
+import { ILocale } from '../db/db'
 import { geoCodeLocation } from '../geocoder/geocoder'
 
-async function getLocation(zipCode: string, name: string): Promise<PCLocation> {
-    const latLng = await geoCodeLocation(zipCode, name)
+async function getLocation(zipCode: string, name: string): Promise<ILocale> {
+    const location = await geoCodeLocation(zipCode, name)
 
     return {
         zipCode,
-        latLng,
+        location,
         name,
     }
 }
 
-async function streetNamesPerZipCodesToLocation(
-    locations: Promise<PCLocation[]>,
-    [zipCode, streetNames]: [string, string[]]
-): Promise<PCLocation[]> {
-    const partial = await locations
-    const locationWithLatLng = await Promise.all(
-        streetNames.map((name) => getLocation(zipCode, name))
-    )
-
-    partial.push(...locationWithLatLng)
-
-    return partial
+async function localesToLocation({ name, zipCode }: ILocale): Promise<ILocale> {
+    return getLocation(zipCode, name)
 }
 
-export async function getLocations(
-    streetNamesPerZipCodes: Record<string, string[]>
-): Promise<PCLocation[]> {
-    return Object.entries(streetNamesPerZipCodes).reduce(
-        streetNamesPerZipCodesToLocation,
-        Promise.resolve([]) as Promise<PCLocation[]>
-    )
+export async function getLocations(locales: ILocale[]): Promise<ILocale[]> {
+    return await Promise.all(locales.map(localesToLocation))
 }

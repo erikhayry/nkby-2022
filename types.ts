@@ -1,29 +1,21 @@
 export enum LocationType {
-  STREET = "street",
+    STREET = 'street',
 }
 
-interface LatLng {
-  lat: number;
-  lng: number;
-}
-
-interface Location {
-  id: string;
-  name: string;
-  zipCode: string;
-  type: LocationType;
-  latLng: LatLng | undefined;
+export interface ILatLng {
+    lat: number
+    lng: number
 }
 
 export type PCZipcode = {
-  href: string | null;
-  zipcode: string;
-};
+    href: string | null
+    zipcode: string
+}
 
 export type PCLocation = {
-  zipCode: string;
-  latLng: LatLng | undefined;
-  name: string;
-};
+    zipCode: string
+    latLng: ILatLng | undefined
+    name: string
+}
 
-export type PCZipcodeWithStreetNames = Record<string, string[]>;
+export type PCZipcodeWithStreetNames = Record<string, string[]>
